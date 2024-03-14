@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-ExtraLight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Medium.ttf);
+    font-family: 500;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Thin.ttf);
+    font-weight: 100;
+}
+
+:root {
+    --paisa-header: #F3F3F3;
+    --paisa-navbar: #0C0B0B;
+    --paisa-hover: #FF008C;
+    --paisa-button: linear-gradient(27deg, rgba(242, 8, 133, 1) 48%, rgba(103, 6, 187, 1) 73%);
+    --paisa-input: #E2E2E2;
+    --paisa-text-color: #FE1E1E;
+    --paisa-pink-color: #FE0091;
+    --paisa-blue-color: #140620;
+    --paisa-table-border: #EEEEEE;
+
+
+}
+
+/* ****************************** Navigation bar start***************************************** */
+.nav-bar {
+    background-color: var(--paisa-header);
+    padding: 10px 0;
+}
+
+.head-nav {
+    color: var(--paisa-navbar);
+}
+
+.signup {
+    padding: 10px 20px;
+    background-image: var(--paisa-button);
+    color: white;
+    border: none;
+
+}
+
+/* ****************************** Navigation bar finish***************************************** */
+section {
+    padding: 70px 0;
+}
+
+/* ****************************** Wrapper start***************************************** */
+.wrapper-bg {
+    background-image: url(../images/wrapper-image/wrapper-background.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-content h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.wrapper-cnt p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.w-name {
+    border: 2px solid var(--paisa-hover);
+    border-radius: 20px;
+    width: 250px;
+}
+
+button#button-addon2 {
+    position: relative;
+    right: 120px;
+    padding: 6px 16px;
+    margin: 8px;
+}
+
+/* ****************************** wrapper finish***************************************** */
+/* ****************************** market start***************************************** */
+.slider-market {
+    margin: 0 20px;
+}
+
+/* ****************************** market finish***************************************** */
+/* ****************************** market down Start***************************************** */
+.market_name p {
+    font-size: 16px;
+    margin-bottom: 0px !important;
+}
+
+.market_name h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.market_name h3 span {
+    color: var(--paisa-text-color);
+
+}
+
+.market_input input {
+    padding: 5px 20px;
+}
+
+.box_gainer {
+    background-image: url(../images/market-down/Halfrectangle.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 234px;
+    height: 150px;
+}
+
+.box_gainer h5 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.box_gainer p {
+    /* padding:10px 0; */
+    margin-bottom: 0;
+}
+
+.box_gainer span {
+    /* padding:10px 0; */
+}
+
+.Top_gainer h3 {
+    font-weight: 500;
+}
+
+
+.img_gainer {
+    position: relative;
+    left: 30px;
+    Top: 38px;
+}
+
+.icon-content p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon-content p u {
+    color: var(--paisa-pink-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+.market_table{
+    padding: 30px 40px;
+    background-color:var(--paisa-table-border);
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    padding: 15px 0;
+} 
+
+td button {
+
+
+    padding: 5px 35px;
+    background: #46C209;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+thead.border {
+    background-color: var(--paisa-table-border);
+}
+
+/* ****************************** market down finish***************************************** */
+
+/* ****************************** Start introducing PaisaXC Exchange***************************************** */
+.I_paisaXC {
+    background-color: var(--paisa-blue-color);
+    color: #fff
+}
+
+/* ****************************** Finish introducing PaisaXC Exchange***************************************** */
+/* ****************************** start Feature PaisaXC Exchange***************************************** */
+.Feature_paisaXC {
+    background-color: var(--paisa-header);
+}
+
+.simp_efficent_de {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.simp_efficent_de h2 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+.simp_efficent_de p {
+    text-align: justify;
+    padding: 0 30px;
+
+}
+
+/* ****************************** Finish Feature PaisaXC Exchange***************************************** */
+/* ****************************** Start Trusted PaisaXC Exchange***************************************** */
+.trusted_heading h2 {
+    font-size: 22px;
+    margin: 40px 0
+}
+
+.trusted-content {
+    padding-top: 40px;
+}
+
+.trusted_Text h6 {
+    margin-bottom: 0rem !important;
+    color: var(--paisa-pink-color);
+
+}
+
+/* ****************************** finish Trusted PaisaXC Exchange***************************************** */
+/* ****************************** Start Choose us PaisaXC Exchange***************************************** */
+.choose_us {
+    background-color: var(--paisa-blue-color);
+}
+
+.choose_con {
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.choose_con img {
+    margin-bottom: 15px;
+}
+
+.choose_con h2 {
+    font-size: 22px;
+    padding: 0px 25px;
+    margin-bottom: 15px;
+}
+
+.choose_con p {
+    padding: 0 40px;
+}
+
+/* ****************************** finish Choose us PaisaXC Exchange***************************************** */
+
+/* ****************************** start need PaisaXC Exchange***************************************** */
+
+.Need_text {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.Need_text h2 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.Need_text p {
+    padding: 0 50px;
+}
+
+/* ****************************** finish need PaisaXC Exchange***************************************** */
+/* ****************************** start app_icon PaisaXC Exchange***************************************** */
+.app_store {
+    background-color: var(--paisa-blue-color);
+    text-align: center;
+    position: relative;
+}
+.app_store::before{
+ 
+        content: url('../images/app_icon/borderpink.png');
+        display: inline-block;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: -15px;
+        top: -15px;
+    }
+.app_store::after{
+ 
+    content: url('../images/app_icon/borderPinkright.png');
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 45px;
+    bottom: 53px;
+}
+
+.app_img {
+    padding: 25px !important;
+}
+
+.app_heading {
+    margin-top: 40px;
+    padding: 0 25px;
+}
+
+.playstore img {
+    margin-bottom: 40px;
+    margin-top: 45px;
+
+}
+
+ .windowmac {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 45px;
+} 
+
+
+/* ****************************** finish app_icon PaisaXC Exchange***************************************** */
+.footer_text p {
+    padding: 25px 0;
+}
+
+.widget-list ul {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.widget-list ul li {
+    margin: 10px 0;
+
+}
+
+.widget-list a {
+    text-decoration: none;
+    line-height: 10px;
+    color: black;
+}
+
+.footer_widget {
+    margin-left: 40px !important;
+}
+
+/* ******************************  start media Query***************************************** */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .w-name {
+        border: 2px solid var(--paisa-hover);
+        border-radius: 20px;
+        width: 160px;
+    }
+
+    .footer_widget {
+        margin-top: 10px;
+        margin-left: 0px !important;
+        padding: 0 30px !important;
+
+
+    }
+
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .wrapper-content h1 {
+        font-size: 34px;
+        font-weight: 600;
+    }
+
+    .wrapper-cnt p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .w-name {
+        width: 144px
+    }
+
+    .market_name {
+        text-align: center;
+    }
+
+    .market_input input {
+        padding: 5px 10px;
+    }
+
+    .exchange-button {
+        padding: 0 5.5rem !important;
+    }
+
+    .icon-content p {
+        font-size: 15px;
+    }
+
+}
+
+/*******************************   finish media Query***************************************** */
